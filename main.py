@@ -70,4 +70,4 @@ async def on_reaction_add(reaction, user):
             print(f"Missing permissions to add role to {member.name}")
 
 # Run the bot
-client.run(os.getenv("TOKEN"))
+bot.run(os.getenv("TOKEN"))
